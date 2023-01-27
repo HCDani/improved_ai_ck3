@@ -1,0 +1,38 @@
+﻿namespace = skalla
+
+skalla.0001 = {
+	hidden = yes
+	
+	trigger = {
+		is_ai = yes	
+		any_held_title = {						
+			holder = { 
+				AND = {			
+					realm_size >= enormous_realm_size 
+					gold < 300
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		add_character_modifier = {			
+			modifier = skalla_ai_maintenance_modifier
+			years = 1
+		}
+	}
+}
+
+skalla.0002 = {
+	hidden = yes
+	
+	trigger = {	
+		is_ai = yes	
+		has_character_modifier = skalla_ai_maintenance_modifier
+		is_at_war = yes
+	}
+	
+	immediate = {
+		remove_character_modifier = skalla_ai_maintenance_modifier
+	}
+}

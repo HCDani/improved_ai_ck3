@@ -1,0 +1,150 @@
+﻿###AI always raises ALL their levies, which causes them to run out of money quickly.
+###Unfortunately, there does not seem to be a way to have the AI raise partial levies.
+###This bit of code is used as a hack to prevent AI from going into debt, at least until a better solution is found. 
+
+realm_maintenance_quarterly_pulse = {
+	on_actions = {
+		poor_maintenance_pulse
+		rich_maintenance_pulse
+	}
+}
+
+poor_maintenance_pulse = {
+	trigger = {
+		is_ai = yes
+		is_at_war = yes
+	}
+	effect = {
+		if = {
+			limit = {
+				any_held_title = {						
+					holder = { 
+						AND = {
+							realm_size < minor_realm_size 
+							gold < 10
+						}
+					}
+				}
+			}
+			add_character_modifier = {
+				modifier = skalla_ai_maintenance_modifier
+				days = { 60 360 }
+			}
+		}
+		if = {
+			limit = {
+				any_held_title = {				
+					holder = { 
+						AND = {
+							realm_size >= minor_realm_size 
+							realm_size < medium_realm_size 
+							gold < 50
+						}
+					}
+				}
+			}		
+			add_character_modifier = {
+				modifier = skalla_ai_maintenance_modifier
+				days = { 60 360 }
+			}
+		}	
+		if = {
+			limit = {
+				any_held_title = {						
+					holder = { 
+						AND = {
+							realm_size >= medium_realm_size
+							realm_size < major_realm_size
+							gold < 100
+						}
+					}
+				}
+			}			
+			add_character_modifier = {
+				modifier = skalla_ai_maintenance_modifier
+				days = { 60 360 }
+			}
+		}
+		if = {
+			limit = {
+				any_held_title = {						
+					holder = { 
+						AND = {					
+							realm_size >= major_realm_size 
+							realm_size < massive_realm_size 
+							gold < 200
+						}
+					}
+				}
+			}		
+			add_character_modifier = {
+				modifier = skalla_ai_maintenance_modifier
+				days = { 60 360 }
+			}
+		}
+		if = {
+			limit = {
+				any_held_title = {						
+					holder = { 
+						AND = {
+							realm_size >= massive_realm_size 
+							realm_size < monumental_realm_size 
+							gold < 300
+						}
+					}
+				}
+			}
+			add_character_modifier = {
+				modifier = skalla_ai_maintenance_modifier
+				days = { 60 360 }
+			}
+		}
+		if = {
+			limit = {
+				any_held_title = {						
+					holder = { 
+						AND = {
+							realm_size >= monumental_realm_size
+							realm_size < enormous_realm_size  
+							gold < 400
+						}
+					}
+				}
+			}
+			add_character_modifier = {
+				modifier = skalla_ai_maintenance_modifier
+				days = { 60 360 }
+			}
+		}
+		if = {
+			limit = {
+				any_held_title = {						
+					holder = { 
+						AND = {
+							realm_size >= enormous_realm_size 
+							gold < 500
+						}
+					}
+				}
+			}
+			add_character_modifier = {
+				modifier = skalla_ai_maintenance_modifier
+				days = { 60 360 }
+			}
+		}
+	}
+}
+
+rich_maintenance_pulse = {
+	trigger = {
+		is_ai = yes
+	}
+	effect = {
+		if = {			
+			limit = {	
+				is_at_war = no
+			}
+			remove_character_modifier = skalla_ai_maintenance_modifier
+		}
+	}
+}

@@ -1,0 +1,7 @@
+﻿relic_artifact_war_ai_score_value = {
+	value = 3
+}
+
+artifact_war_ai_score_value = {
+	value = 3
+}

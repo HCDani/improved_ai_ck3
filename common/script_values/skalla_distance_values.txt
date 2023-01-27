@@ -1,0 +1,2 @@
+﻿squared_distance_huge = 600000 #850 map-pixels. Roughly one Holy Roman Empire away (left to right).
+squared_distance_almost_massive = 800000 #1200 map-pixels. Roughly 1.5 Holy Roman Empire away (left to right).

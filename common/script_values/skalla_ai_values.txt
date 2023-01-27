@@ -1,0 +1,33 @@
+﻿very_low_positive_ai_value = 20
+low_positive_ai_value = 30
+medium_positive_ai_value = 50
+high_positive_ai_value = 70
+very_high_positive_ai_value = 100
+dominant_positive_ai_value = 200
+
+very_low_negative_ai_value = -5
+low_negative_ai_value = -10
+medium_negative_ai_value = -15
+high_negative_ai_value = -20
+very_high_negative_ai_value = -30
+dominant_negative_ai_value = -200
+
+#ai_boldness
+max_positive_boldness = 100 #brave (50) + ambitious (25) + fickle (25)
+high_positive_boldness = 50 #brave
+medium_positive_boldness = 25 #ambitious etc.
+low_positive_boldness = 10 #gregarious etc.
+max_negative_boldness = -50 #craven (-50) + calm (-25) + content (25)
+high_negative_boldness = -30 #craven
+medium_negative_boldness = -15 #content etc.
+low_negative_boldness = -5 #patient etc.
+
+#ai_energy
+max_positive_energy = 95 #diligent (50), brave (50)
+high_positive_energy = 50 #diligent
+medium_positive_energy = 25 #brave
+low_positive_energy = 15 #there are a 7 traits adding 10 and one 5
+max_negative_energy = -50 #content (-50), lazy (-50)
+high_negative_energy = -30 #content
+medium_negative_energy = -20 #craven
+low_negative_energy = -5 #4 traits using -10

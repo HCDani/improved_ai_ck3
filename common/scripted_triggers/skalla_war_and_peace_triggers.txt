@@ -1,0 +1,14 @@
+﻿skalla_war_neighbour_constraint = {
+	trigger_if = {
+		limit = {
+			scope:attacker = { is_independent_ruler = no }
+		}
+		scope:attacker = {
+		    NOT = { character_is_land_realm_neighbor = scope:defender }
+		}
+		scope:defender = { is_independent_ruler = yes }
+	}
+	trigger_else = {
+		always = no
+	}
+}

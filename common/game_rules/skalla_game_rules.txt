@@ -1,0 +1,38 @@
+﻿skalla_ai_aggression = {
+	default = skalla_ai_aggression_very_high
+	skalla_ai_aggression_vanilla = {
+		apply_modifier = ai:skalla_ai_modifier_aggression_vanilla
+	}
+	skalla_ai_aggression_high = {
+		apply_modifier = ai:skalla_ai_modifier_aggression_high
+	}
+	skalla_ai_aggression_very_high = {
+		apply_modifier = ai:skalla_ai_modifier_aggression_very_high
+	}
+}
+
+skalla_ai_blobbing = {
+	default = skalla_ai_blobbing_medium
+	skalla_ai_blobbing_low = {	
+		apply_modifier = ai:skalla_ai_modifier_blobbing_low
+	}
+	skalla_ai_blobbing_medium = {		
+		apply_modifier = ai:skalla_ai_modifier_blobbing_medium
+	}
+	skalla_ai_blobbing_high = {	
+		apply_modifier = ai:skalla_ai_modifier_blobbing_high
+	}
+}
+
+skalla_ai_strength = {
+	default = skalla_ai_strength_vanilla
+	skalla_ai_strength_vanilla = {	
+		apply_modifier = ai:skalla_ai_modifier_strength_vanilla
+	}
+	skalla_ai_strength_high = {
+		apply_modifier = ai:skalla_ai_modifier_strength_high
+	}
+	skalla_ai_strength_very_high = {
+		apply_modifier = ai:skalla_ai_modifier_strength_very_high
+	}
+}
