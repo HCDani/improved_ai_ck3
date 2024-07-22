@@ -1,4 +1,9 @@
 ﻿skalla_ai_aggression = {
+
+	categories = {
+		difficulty ai
+	}
+
 	default = skalla_ai_aggression_very_high
 	skalla_ai_aggression_vanilla = {
 		apply_modifier = ai:skalla_ai_modifier_aggression_vanilla
@@ -12,6 +17,11 @@
 }
 
 skalla_ai_blobbing = {
+	
+	categories = {
+		difficulty ai
+	}
+
 	default = skalla_ai_blobbing_medium
 	skalla_ai_blobbing_low = {	
 		apply_modifier = ai:skalla_ai_modifier_blobbing_low
@@ -25,6 +35,11 @@ skalla_ai_blobbing = {
 }
 
 skalla_ai_strength = {
+
+	categories = {
+		difficulty ai
+	}
+
 	default = skalla_ai_strength_vanilla
 	skalla_ai_strength_vanilla = {	
 		apply_modifier = ai:skalla_ai_modifier_strength_vanilla

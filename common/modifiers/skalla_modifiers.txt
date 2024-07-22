@@ -1,71 +1,34 @@
 ﻿skalla_ai_maintenance_modifier = {
 	hide_effects = yes
 	icon = skalla_ai_maintenance_positive
-	army_maintenance_mult = -0.5
 }
 
 skalla_ai_modifier_aggression_very_high = {
-	ai_sociability = dominant_positive_ai_value
-	ai_energy = dominant_positive_ai_value
-	ai_boldness = dominant_positive_ai_value
-	ai_rationality = high_negative_ai_value
-	ai_war_chance = 100
+	ai_war_chance = 75
 }
 
 skalla_ai_modifier_aggression_high = {
-	ai_sociability = high_positive_ai_value
-	ai_energy = very_high_positive_ai_value
-	ai_boldness = high_positive_ai_value
-	ai_rationality = low_negative_ai_value
 	ai_war_chance = 15
 }
 
 skalla_ai_modifier_aggression_vanilla = {
-	ai_sociability = medium_positive_ai_value
-	ai_energy = medium_positive_ai_value
-	ai_boldness = medium_positive_ai_value
-	ai_rationality = high_positive_ai_value
 	ai_war_chance = 1
 }
 
 skalla_ai_modifier_blobbing_high = {	
-	vassal_opinion = 15
-	tribal_government_vassal_opinion = 15
-	clan_government_vassal_opinion = -5
 }
 
 skalla_ai_modifier_blobbing_medium = {
-	vassal_opinion = -5
-	tribal_government_vassal_opinion = -5
-	clan_government_vassal_opinion = -5
 }
 
 skalla_ai_modifier_blobbing_low = {
-	vassal_opinion = -20
-	tribal_government_vassal_opinion = -20
-	clan_government_vassal_opinion = -5
 }
 
 skalla_ai_modifier_strength_very_high = {
-	levy_size = 1.5
-	vassal_levy_contribution_mult = 0.2
-	vassal_tax_contribution_add = 0.2
-	army_maintenance_mult = -0.3
-	tribal_government_vassal_opinion = -20
-	clan_government_vassal_opinion = -20
 }
 
 skalla_ai_modifier_strength_high = {
-	levy_size = 1.1
-	vassal_levy_contribution_mult = 0.1
-	vassal_tax_contribution_add = 0.1
-	army_maintenance_mult = -0.2
-	tribal_government_vassal_opinion = -10
-	clan_government_vassal_opinion = -10
 }
 
 skalla_ai_modifier_strength_vanilla = {
-	vassal_opinion = 0
-	tribal_government_vassal_opinion = -5
-	clan_government_vassal_opinion = -5
 }

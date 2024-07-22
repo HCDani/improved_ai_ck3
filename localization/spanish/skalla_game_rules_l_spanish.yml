@@ -1,0 +1,25 @@
+﻿l_spanish:
+ rule_skalla_ai_aggression:0 "#G Skalla: #!AI Aggression Level"
+ setting_skalla_ai_aggression_vanilla:1 "#high Low AI aggression #!"
+ setting_skalla_ai_aggression_vanilla_desc:0 "AI aggression will only be slightly higher."
+ setting_skalla_ai_aggression_high:1 "#high High #!"
+ setting_skalla_ai_aggression_high_desc:0 "High AI aggression."
+ setting_skalla_ai_aggression_very_high:0 "Very high (Default)"
+ setting_skalla_ai_aggression_very_high_desc:0 "Very high AI aggression. The default setting."
+ 
+ rule_skalla_ai_blobbing:0 "#G Skalla: #!AI Blobbing Level"
+ setting_skalla_ai_blobbing_medium:0 "Medium (Default)"
+ setting_skalla_ai_blobbing_medium_desc:0 "Medium AI blobbing. AI empires will be of decent size."
+ setting_skalla_ai_blobbing_high:1 "#high High #!"
+ setting_skalla_ai_blobbing_high_desc:0 "High AI blobbing. AI empires will be massive.#N This will cause a select few empires to dominate the map!#!"
+ setting_skalla_ai_blobbing_low:1 "#high Low AI blobbing #!"
+ setting_skalla_ai_blobbing_low_desc:0 "AI empires will fall apart easier."
+ 
+ rule_skalla_ai_strength:0 "#G Skalla: #!AI Strength"
+ setting_skalla_ai_strength_very_high:1 "#high Very high #!"
+ setting_skalla_ai_strength_very_high_desc:0 "AI will have a much higher amount of levies than usual.#N This will make surviving much harder!#!"
+ setting_skalla_ai_strength_vanilla:0 "Vanilla (Default)"
+ setting_skalla_ai_strength_vanilla_desc:0 "AI will have the base amount of levies."
+ setting_skalla_ai_strength_high:1 "#high High #!"
+ setting_skalla_ai_strength_high_desc:0 "AI will have a higher amount of levies than usual.#N This will make surviving harder!#!"
+ 

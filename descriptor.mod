@@ -1,9 +1,8 @@
-version="1.5.1"
-name="Skalla's War and Conquest"
+version="1.5.2"
+name="Skalla's War and Conquest Hock Edition"
 tags={
 	"Balance"
 	"Warfare"
 	"Gameplay"
 }
-supported_version="1.7.2"
-remote_file_id="2697817411"
+supported_version="1.12.5"
